@@ -1,0 +1,6 @@
+framework module Pods_EMSecond_Tests {
+  umbrella header "Pods-EMSecond_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EMSecond_Example' do
+  pod 'EMSecond', :path => '../'
+
+  target 'EMSecond_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

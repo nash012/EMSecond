@@ -1,0 +1,23 @@
+PODS:
+  - EMSecond (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - EMSecond (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  EMSecond:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EMSecond: 7193e19546e15dc1455e9eac2d3358fb6271961b
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 6c3f8554d7e65e9d73b601cfd3e1aa088cae08c0
+
+COCOAPODS: 1.1.1

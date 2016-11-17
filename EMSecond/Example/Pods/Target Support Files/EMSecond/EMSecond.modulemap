@@ -1,0 +1,6 @@
+framework module EMSecond {
+  umbrella header "EMSecond-umbrella.h"
+
+  export *
+  module * { export * }
+}
